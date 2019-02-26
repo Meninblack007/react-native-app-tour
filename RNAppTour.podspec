@@ -20,6 +20,5 @@ Pod::Spec.new do |s|
   s.static_framework = true
 
   s.dependency "React"
-  #s.dependency "others"
-
+  s.dependency "MaterialShowcase", "~> 0.6.4"
 end
